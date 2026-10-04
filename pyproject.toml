@@ -24,7 +24,7 @@ dependencies = [
     "pyinstaller==6.17.0",
     "pyinstaller-hooks-contrib==2025.11",
     "pywin32-ctypes==0.2.3",
-    "setuptools==80.9.0",
+    "setuptools==83.0.0",
     "tqdm==4.67.1",
     "ufonormalizer==0.6.3",
     "ufoprocessor==1.14.1",
