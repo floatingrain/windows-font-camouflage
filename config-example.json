@@ -1,0 +1,26 @@
+{
+  "converters": [
+    {
+      "type": "ttc",
+      "mappers": [
+        {
+          "source_file": ".\\origin-fonts\\示例字体1.ttc",
+          "fake_file": ".\\fake-fonts\\Regular.ttf"
+        },
+        {
+          "source_file": ".\\origin-fonts\\示例字体1L.ttc",
+          "fake_file": ".\\fake-fonts\\Light.ttf"
+        }
+      ]
+    },
+    {
+      "type": "ttf",
+      "mappers": [
+        {
+          "source_file": ".\\origin-fonts\\示例字体2.ttf",
+          "fake_file": ".\\fake-fonts\\fake.ttf"
+        }
+      ]
+    }
+  ]
+}

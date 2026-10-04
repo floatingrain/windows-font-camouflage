@@ -1,0 +1,9 @@
+**/dist/
+**/build/
+**/.venv/
+**/__pycache__/
+**/backup/
+**/origin-fonts/
+**/target-fonts/
+
+diagnose_font.py
