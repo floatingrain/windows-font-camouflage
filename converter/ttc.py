@@ -16,7 +16,7 @@ class TTCConverter(BaseConverter):
     1. 将 source_file（TTC）解包到 workspace
     2. 为每个 TTF 提取 name 表（ttx）
     3. 将 fake_file 复制为对应 TTF 文件名，合并 ttx 生成新 TTF
-    4. 收集所有新 TTF 打包为 TTC，输出到 target-fonts
+    4. 收集所有新 TTF 打包为 TTC，输出到 processed-fonts
     """
 
     def convert_mapper(self, mapper: MapperConfig, workspace: str):

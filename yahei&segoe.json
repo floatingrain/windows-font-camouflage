@@ -4,16 +4,16 @@
 			"type": "ttc",
 			"mappers": [
 				{
-					"source_file": ".\\origin-fonts\\msyh.ttc",
-					"fake_file": ".\\fake-fonts\\MiSans\\MiSans-Regular.ttf"
+					"source_file": ".\\system-original-fonts\\msyh.ttc",
+					"fake_file": ".\\wanted-fonts\\MiSans\\MiSans-Regular.ttf"
 				},
 				{
-					"source_file": ".\\origin-fonts\\msyhl.ttc",
-					"fake_file": ".\\fake-fonts\\MiSans\\MiSans-Light.ttf"
+					"source_file": ".\\system-original-fonts\\msyhl.ttc",
+					"fake_file": ".\\wanted-fonts\\MiSans\\MiSans-Light.ttf"
 				},
 				{
-					"source_file": ".\\origin-fonts\\msyhbd.ttc",
-					"fake_file": ".\\fake-fonts\\MiSans\\MiSans-Bold.ttf"
+					"source_file": ".\\system-original-fonts\\msyhbd.ttc",
+					"fake_file": ".\\wanted-fonts\\MiSans\\MiSans-Bold.ttf"
 				}
 			]
 		},
@@ -21,32 +21,32 @@
 			"type": "ttf",
 			"mappers": [
 				{
-					"source_file": ".\\origin-fonts\\segoeuil.ttf",
-					"fake_file": ".\\fake-fonts\\MiSansLatin\\MiSansLatin-Light.ttf"
+					"source_file": ".\\system-original-fonts\\segoeuil.ttf",
+					"fake_file": ".\\wanted-fonts\\MiSansLatin\\MiSansLatin-Light.ttf"
 				},
 				{
-					"source_file": ".\\origin-fonts\\segoeuisl.ttf",
-					"fake_file": ".\\fake-fonts\\MiSansLatin\\MiSansLatin-Light.ttf"
+					"source_file": ".\\system-original-fonts\\segoeuisl.ttf",
+					"fake_file": ".\\wanted-fonts\\MiSansLatin\\MiSansLatin-Light.ttf"
 				},
 				{
-					"source_file": ".\\origin-fonts\\segoeui.ttf",
-					"fake_file": ".\\fake-fonts\\MiSansLatin\\MiSansLatin-Regular.ttf"
+					"source_file": ".\\system-original-fonts\\segoeui.ttf",
+					"fake_file": ".\\wanted-fonts\\MiSansLatin\\MiSansLatin-Regular.ttf"
 				},
 				{
-					"source_file": ".\\origin-fonts\\seguisb.ttf",
-					"fake_file": ".\\fake-fonts\\MiSansLatin\\MiSansLatin-Bold.ttf"
+					"source_file": ".\\system-original-fonts\\seguisb.ttf",
+					"fake_file": ".\\wanted-fonts\\MiSansLatin\\MiSansLatin-Bold.ttf"
 				},
 				{
-					"source_file": ".\\origin-fonts\\segoeuib.ttf",
-					"fake_file": ".\\fake-fonts\\MiSansLatin\\MiSansLatin-Bold.ttf"
+					"source_file": ".\\system-original-fonts\\segoeuib.ttf",
+					"fake_file": ".\\wanted-fonts\\MiSansLatin\\MiSansLatin-Bold.ttf"
 				},
 				{
-					"source_file": ".\\origin-fonts\\seguibl.ttf",
-					"fake_file": ".\\fake-fonts\\MiSansLatin\\MiSansLatin-Bold.ttf"
+					"source_file": ".\\system-original-fonts\\seguibl.ttf",
+					"fake_file": ".\\wanted-fonts\\MiSansLatin\\MiSansLatin-Bold.ttf"
 				},
 				{
-					"source_file": ".\\origin-fonts\\SegUIVar.ttf",
-					"fake_file": ".\\fake-fonts\\MiSansLatin\\MiSansLatinVF.ttf"
+					"source_file": ".\\system-original-fonts\\SegUIVar.ttf",
+					"fake_file": ".\\wanted-fonts\\MiSansLatin\\MiSansLatinVF.ttf"
 				}
 			]
 		}

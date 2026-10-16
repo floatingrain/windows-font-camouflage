@@ -10,11 +10,11 @@ class BaseConverter(ABC):
     """转换器基类
 
     流水线：为每个 mapper 创建一个临时工作目录，子类在其中处理
-    source_file（提取 name 表），合并到 fake_file，输出到 target-fonts。
+    source_file（提取 name 表），合并到 fake_file，输出到 processed-fonts。
     不再涉及系统目录、注册表或文件所有权。
     """
 
-    TARGET_DIR = "target-fonts"
+    TARGET_DIR = "processed-fonts"
 
     def __init__(self, config: ConverterConfig):
         self.config = config
@@ -39,7 +39,7 @@ class BaseConverter(ABC):
         pass
 
     def _ensure_target_dir(self) -> str:
-        """确保 target-fonts 目录存在并返回其绝对路径"""
+        """确保 processed-fonts 目录存在并返回其绝对路径"""
         target_dir = os.path.join(os.getcwd(), self.TARGET_DIR)
         if not os.path.exists(target_dir):
             os.makedirs(target_dir)

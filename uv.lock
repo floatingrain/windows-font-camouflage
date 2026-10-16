@@ -148,7 +148,7 @@ pens = [
 ]
 
 [[package]]
-name = "font-replace"
+name = "font-camouflage"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

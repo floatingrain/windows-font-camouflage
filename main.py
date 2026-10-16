@@ -39,13 +39,13 @@ _root.propagate = False
 def main():
     """主程序入口"""
     parser = argparse.ArgumentParser(
-        description="Windows 字体转换工具：将 fake_file 按 source_file 的 name 表合并，输出到 target-fonts 目录"
+        description="Windows 字体转换工具：将 fake_file 按 source_file 的 name 表合并，输出到 processed-fonts 目录"
     )
     subparsers = parser.add_subparsers(dest="command", help="可用命令")
 
     # convert 子命令
     convert_parser = subparsers.add_parser(
-        "convert", help="执行字体转换，输出到 target-fonts 目录"
+        "convert", help="执行字体转换，输出到 processed-fonts 目录"
     )
     convert_parser.add_argument(
         "-c", "--config", required=True, help="配置文件路径"
@@ -87,7 +87,7 @@ def main():
     if args.command == "convert":
         run_convert(config)
 
-    logging.info("字体转换完成，结果位于 target-fonts 目录。")
+    logging.info("字体转换完成，结果位于 processed-fonts 目录。")
 
 
 if __name__ == "__main__":

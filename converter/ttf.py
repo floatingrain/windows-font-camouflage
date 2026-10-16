@@ -16,7 +16,7 @@ class TTFConverter(BaseConverter):
     1. 提取 source_file 的 name 表
     2. 将 fake_file 复制到 workspace 作为基础字体
     3. 合并 name 表到基础字体
-    4. 输出到 target-fonts
+    4. 输出到 processed-fonts
     """
 
     def convert_mapper(self, mapper: MapperConfig, workspace: str):
@@ -44,7 +44,7 @@ class TTFConverter(BaseConverter):
         shutil.copy2(mapper.fake_file, output_ttf)
         ttx_merge(output_ttf, ttx_file, workspace)
 
-        # 4. 输出到 target-fonts
+        # 4. 输出到 processed-fonts
         target_dir = self._ensure_target_dir()
         output_file = os.path.join(target_dir, target_basename)
         shutil.copy2(output_ttf, output_file)
