@@ -8,7 +8,7 @@ dependencies = [
     "afdko==4.0.2",
     "altgraph==0.17.5",
     "booleanoperations==0.9.0",
-    "brotli==1.2.0",
+    "brotli==1.2.1",
     "colorama==0.4.6",
     "defcon==0.12.2",
     "fontmath==0.9.4",
